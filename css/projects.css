@@ -1,0 +1,88 @@
+@font-face {
+	font-family: 'buttercup';
+	src: url('../fonts/TrueType/SFButtacupLettering.ttf');
+}
+@font-face {
+	font-family: 'buttercup_bold';
+	src: url('../fonts/TrueType/SFButtacupLettering-Bold.ttf');
+}
+@font-face {
+	font-family: 'buttercup_slant';
+	src: url('../fonts/TrueType/SFButtacupLettering-Oblique.ttf');
+}
+@font-face {
+	font-family: 'kalos';
+	src: url('../fonts/Kalos/Kalos.ttf');
+}
+body {
+  background: url("../resources/background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  	text-align: center;
+  	color: white;
+  	text-shadow: 3px 2px black;
+  	font-family: "buttercup";
+  	font-size:500%;
+  	opacity:1;
+}
+h2{
+	text-align: center;
+  	color: white;
+        text-shadow: 3px 2px black;
+
+  	font-family: "buttercup_bold";
+  	font-size:150%;
+  	opacity:1;
+}
+h3 {
+	margin-left:10px;
+	text-align: left;
+  	color: black;
+  	font-family: "buttercup_slant";
+  	font-size:90%;
+  	opacity:1;
+}
+p{
+	margin-left:10px;
+	text-align: left;
+  	color: black;
+  	font-family: "kalos";
+  	font-size:140%;
+  	opacity:1;
+}
+li{
+  margin-left:10px;
+  text-align: left;
+    color: black;
+    font-family: "kalos";
+    font-size:100%;
+    opacity:1;
+}
+
+ .navbar img {
+  width:40px;
+  height:40px;
+ }
+ #nav_icon {
+  transition: all 0.6s ease;
+ }
+
+ #home_icon {
+   -webkit-transition: all 0.75s ease; /* Safari and Chrome */
+    -moz-transition: all 0.75s ease; /* Firefox */
+    -ms-transition: all 0.75s ease; /* IE 9 */
+    -o-transition: all 0.75s ease; /* Opera */
+    transition: all 0.75s ease;
+ }
+ #home_icon:hover {
+    -webkit-transform:scale(1.2); /* Safari and Chrome */
+    -moz-transform:scale(1.2); /* Firefox */
+    -ms-transform:scale(1.2); /* IE 9 */
+    -o-transform:scale(1.2); /* Opera */
+     transform:scale(1.2);
+    z-index:1;
+}

@@ -1,0 +1,190 @@
+@font-face {
+	font-family: 'buttercup';
+	src: url('../fonts/TrueType/SFButtacupLettering.ttf');
+}
+@font-face {
+	font-family: 'buttercup_bold';
+	src: url('../fonts/TrueType/SFButtacupLettering-Bold.ttf');
+}
+@font-face {
+	font-family: 'buttercup_slant';
+	src: url('../fonts/TrueType/SFButtacupLettering-Oblique.ttf');
+}
+@font-face {
+	font-family: 'kalos';
+	src: url('../fonts/Kalos/Kalos.ttf');
+}
+body {
+  background: url("../resources/background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  	text-align: center;
+  	color: white;
+  	text-shadow: 3px 2px black;
+  	font-family: "buttercup";
+  	font-size:500%;
+  	opacity:1;
+}
+h2{
+	text-align: center;
+  	color: white;
+        text-shadow: 3px 2px black;
+
+  	font-family: "buttercup_bold";
+  	font-size:150%;
+  	opacity:1;
+}
+h3 {
+	margin-left:10px;
+	text-align: left;
+  	color: black;
+  	font-family: "buttercup_slant";
+  	font-size:90%;
+  	opacity:1;
+}
+p{
+	margin-left:10px;
+	text-align: left;
+  	color: black;
+  	font-family: "kalos";
+  	font-size:140%;
+  	opacity:1;
+}
+li{
+  margin-left:10px;
+  text-align: left;
+    color: black;
+    font-family: "kalos";
+    font-size:100%;
+    opacity:1;
+}
+.back_icon {
+  height:40px;
+  width:40px;
+  cursor: pointer; cursor: hand;
+  display:none;
+   cursor: pointer; cursor: hand;
+  -webkit-transition: all 0.75s ease; /* Safari and Chrome */
+  -moz-transition: all 0.75s ease; /* Firefox */
+  -ms-transition: all 0.75s ease; /* IE 9 */
+  -o-transition: all 0.75s ease; /* Opera */
+  transition: all 0.75s ease;
+}
+.tools_img {
+  height:150px;
+  width:150px;
+  position:relative;
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  cursor: pointer; cursor: hand;
+  -webkit-transition: all 0.75s ease; /* Safari and Chrome */
+  -moz-transition: all 0.75s ease; /* Firefox */
+  -ms-transition: all 0.75s ease; /* IE 9 */
+  -o-transition: all 0.75s ease; /* Opera */
+  transition: all 0.75s ease;
+  } 
+  .other_img {
+    height:150px;
+  width:150px;
+  position:relative;
+  vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    cursor: pointer; cursor: hand;
+    -webkit-transition: all 0.75s ease; /* Safari and Chrome */
+    -moz-transition: all 0.75s ease; /* Firefox */
+    -ms-transition: all 0.75s ease; /* IE 9 */
+    -o-transition: all 0.75s ease; /* Opera */
+    transition: all 0.75s ease;
+  }
+.programming_img {
+	height:150px;
+	width:150px;
+	position:relative;
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  cursor: pointer; cursor: hand;
+  -webkit-transition: all 0.75s ease; /* Safari and Chrome */
+  -moz-transition: all 0.75s ease; /* Firefox */
+  -ms-transition: all 0.75s ease; /* IE 9 */
+  -o-transition: all 0.75s ease; /* Opera */
+  transition: all 0.75s ease;
+}
+
+.skills_images_row {
+  width: 80%;
+  margin-left: auto; 
+  margin-right: auto;
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+  -webkit-transition: all 0.75s ease; /* Safari and Chrome */
+  -moz-transition: all 0.75s ease; /* Firefox */
+  -ms-transition: all 0.75s ease; /* IE 9 */
+  -o-transition: all 0.75s ease; /* Opera */
+  transition: all 0.75s ease;
+}
+.stretch {
+  width: 80%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+} 
+
+.skills_images_row img:hover, .back_icon:hover {
+  -webkit-transform:scale(1.2); /* Safari and Chrome */
+  -moz-transform:scale(1.2); /* Firefox */
+  -ms-transform:scale(1.2); /* IE 9 */
+  -o-transform:scale(1.2); /* Opera */
+  transform:scale(1.2);
+	z-index:1;
+}
+
+div.transbox {
+  display:none;
+	overflow:scroll;
+	position:absolute;
+  height:300px;
+	width: 70%;
+  right: 10%;
+  left:15%;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  	/*opacity: 0.5;
+ 	filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+div.transbox > p {
+  display:none;
+}
+ .navbar img {
+ 	width:40px;
+ 	height:40px;
+ }
+ #nav_icon {
+ 	transition: all 0.6s ease;
+ }
+
+ #home_icon {
+ 	 -webkit-transition: all 0.75s ease; /* Safari and Chrome */
+    -moz-transition: all 0.75s ease; /* Firefox */
+    -ms-transition: all 0.75s ease; /* IE 9 */
+    -o-transition: all 0.75s ease; /* Opera */
+    transition: all 0.75s ease;
+ }
+ #home_icon:hover {
+    -webkit-transform:scale(1.2); /* Safari and Chrome */
+    -moz-transform:scale(1.2); /* Firefox */
+    -ms-transform:scale(1.2); /* IE 9 */
+    -o-transform:scale(1.2); /* Opera */
+     transform:scale(1.2);
+		z-index:1;
+}
