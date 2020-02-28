@@ -1,0 +1,163 @@
+<!doctype HTML>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel = "stylesheet" type = "text/css" href = "index.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">   
+    <title>Mike Song</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  </head>
+<body>
+<div id="main">
+  <div class="container-fluid vertical-center" id="page-1">
+    <div class="row align-items-center">
+      <div class="col">
+      </div>
+      <div class="col">
+        <div id="home-section">
+            <img src="logo.png" class="center logo">
+            <h3 class="logo-text">Software Developer</h3>
+        </div>
+      </div>
+      <div class="col">
+        <i class="material-icons md-48" id="nav-icon" onclick="openNav()">keyboard_arrow_left</i> 
+      </div>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+      <div id="nav-links" class="left-nav">
+          <a href="#" id="home-link" onclick="closeNav()">Home</a><br>
+          <a href="#" id="experience-link" onclick="openSection(event)">Experience</a><br>
+          <a href="#" id="projects-link" onclick="openSection(event)">Projects</a><br>
+      </div>
+      <div id="projects-section">
+        <div class="card-deck project">
+          <div class="card project">
+            <img src="cryptocoffeecup.png" class="project-image  card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Crypto Coffee Cup</h5>
+              <p class="card-text">Send someone crypto worth a cup of coffee. Pulls current ETH/USD price and connects to Ethereum blockchain through MetaMask. </p>
+              <p class="card-text"><small class="text-muted">Web3 • MetaMask API • CoinGecko API • AWS</small></p>
+              <a target="_blank"  href="https://cryptocoffeecup.net"  id="icon"><i class="fab fa-github"></i></a>              
+            </div>
+          </div>
+          <div class="card">
+            <img src="musicclassifier.png" class="project-image  card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Music Genre Classifier</h5>
+              <p class="card-text">Developed and trained a CNN to classify MP3 file music genres. Generates spectrograms for classification.</p>
+              <p class="card-text"><small class="text-muted">PyTorch • NumPy • LibROSA</small></p>
+              <a target="_blank"  href="https://github.com/MikeSong95/Music-Genre-Classifier"  id="icon"><i class="fab fa-github"></i></a>              
+            </div>
+          </div>
+          <div class="card">
+            <img src="medio.png" class="project-image  card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MedIO</h5>
+              <p class="card-text">Patient management and administration web application for doctors. Assign and track medications, appointments, patient rosters, and detailed medical information.
+              </p>
+              <p class="card-text"><small class="text-muted">Node.js • MongoDB • Express • Heroku</small></p>
+              <a target="_blank"  href="https://github.com/MikeSong95/CSC309_Final_Project"  id="icon"><i class="fab fa-github"></i></a>
+            </div>
+            </div>
+          </div>
+          
+          <div class="card-deck project">
+            <div class="card project">
+              <img src="tutorme.png" class="project-image  card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">TutorMe</h5>
+                <p class="card-text">Web application matching students with ideal tutors. Awarded 2nd place at IBM Bluemix-themed hackathon.</p>
+                <p class="card-text"><small class="text-muted">Bluemix • JSP • SQL</small></p>
+                <a target="_blank"  href="https://github.com/MikeSong95/TutorMe"  id="icon"><i class="fab fa-github"></i></a>              
+              </div>
+          </div>
+            <div class="card">
+              <img src="gismap.png" class="project-image  card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">GIS Map Application</h5>
+                <p class="card-text">Map application with functionality similar to Google Maps. A* algorithm for pathfinding, predictive destination, and local point of interest search.</p>
+                <p class="card-text"><small class="text-muted">C++ • OpenStreetMap API • UnitTest++ • EasyGL</small></p>
+                <a target="_blank"  href="https://github.com/MikeSong95/GIS-Map-Application"  id="icon"><i class="fab fa-github"></i></a>             
+            </div>
+          </div>
+            <div class="card">
+              <img src="amtransmitter.png" class="project-image  card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">AM Radio Transmitter</h5>
+                <p class="card-text">Digitally modulates and wirelessly transmits AM signals using an FPGA. Can alter carrier / message frequencies and modulate with a square wave.</p>
+                <p class="card-text"><small class="text-muted">Verilog • FPGA • Simulink</small></p>
+                <a target="_blank"  href="https://docs.google.com/document/d/1G6d_rDMbEOAEgLAUVDso0lwJ2sOI5WvdHrBshnicVMQ/edit?usp=sharing"  id="icon"><i class="fab fa-github"></i></a>             
+             </div>
+          </div>
+        </div>
+        </div>
+      <div id="experience-section">
+        <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Stratx Consulting Inc.</h5>
+              <h6 class="card-title">Software Developer</h6>
+              <h6 class="card-subtitle mb-2 text-muted">May 2019 - Dec 2019</h6>
+              <p class="card-text"><i class="md-12 material-icons">details</i>Developed full-stack Flask/SQL/React asset management dashboard for cryptocurrency portfolio.</p>
+              <p class="card-text"><i class="md-12 material-icons">details</i>Secured blockchain nodes on AWS by deploying load balancers, failsafe databases, VPNs, and firewalls.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Thales</h5>
+              <h6 class="card-title">Software Analyst Intern</h6>
+              <h6 class="card-subtitle mb-2 text-muted">May 2018 - Dec 2018</h6>
+              <p class="card-text"><i class="md-12 material-icons">details</i>Developed automated testing for international railway projects, reducing testing from weeks to days. </p>
+              <p class="card-text"><i class="md-12 material-icons">details</i>Migrated physical test environments to Citrix cloud, reducing system configuration time by 50%.</p>
+              <p class="card-text"><i class="md-12 material-icons">details</i>Coded Python test framework for train supervision, deployed across multiple international projects.</p>
+              <p class="card-text"><i class="md-12 material-icons">details</i>Initiated continuous integration pipeline using Git and BitBucket, currently in use by 20+ developers.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">IBM</h5>
+              <h6 class="card-title">Software Development Intern</h6>
+              <h6 class="card-subtitle mb-2 text-muted">May 2015 - Aug 2016</h6>
+              <p class="card-text"><i class="md-12 material-icons">details</i>Responsible for QA of Java WebSphere Application Server plugins for Eclipse-based IDE.</p>
+              <p class="card-text"><i class="md-12 material-icons">details</i>Fixed and stabilized test suites of over 800 JUnit and Abbot GUI tests to 95% success rate.</p>
+              <p class="card-text"><i class="md-12 material-icons">details</i>Led and trained 8 new local and remote interns, prioritizing release items and assigning tasks.</p>
+              <p class="card-text"><i class="md-12 material-icons">details</i>Developed Node.js web server to host test results and track developer work items.</p>
+              <p class="card-text"><i class="md-12 material-icons">details</i>Led initiative to re-develop online test machine reservation system, successfully improving developer productivity.</p>
+            </div>
+        </div>
+        <div class="card" id="encycle">
+          <div class="card-body">
+            <h5 class="card-title">Encycle</h5>
+            <h6 class="card-title">Software Engineering Intern</h6>
+            <h6 class="card-subtitle mb-2 text-muted">May 2014 - Aug 2014</h6>
+            <p class="card-text"><i class="md-12 material-icons">details</i>Developed automated client web portal user acceptance tests using C# and Selenium.</p>
+            <p class="card-text"><i class="md-12 material-icons">details</i>Debugged issues affecting development and production code in Visual Studio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <a target="_blank"  href="https://github.com/MikeSong95"  class="main-icon"><i class="fab fa-github"></i></a>
+      <a target="_blank"  href="https://www.linkedin.com/in/michaelsong3/"  class="main-icon"><i class="fab fa-linkedin"></i></a>
+      <a target="_blank"  href="mailto: mike.song@mail.utoronto.ca"  class="main-icon"><i class="fas fa-envelope-square"></i></a>
+
+    </div>  
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>  <script  src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
