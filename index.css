@@ -139,17 +139,15 @@ h1, h2, h3,p {
     top: 0; /* Stay at the top */
     background-color: #111; /* Black*/
     opacity:0.85;
-    overflow: hidden;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    
+    display:inline-block;
   }
   .sidenav {
     right: 0;
     float:left;
     height:100vh;
-
   }
   /* The navigation menu links */
   .sidenav a {
@@ -160,6 +158,7 @@ h1, h2, h3,p {
     transition: 0.3s;
     font-family:'Raleway';
     display:inline-block;
+
   }
   #icon {
     padding:0;
