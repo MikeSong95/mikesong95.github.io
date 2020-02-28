@@ -196,7 +196,7 @@ h1, h2, h3,p {
     display:inline;
     z-index:99;
     overflow: hidden;
-    width:90%;
+    width:80%;
   }
   .company-logo {
       height:60px;
