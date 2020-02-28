@@ -139,6 +139,7 @@ h1, h2, h3,p {
     top: 0; /* Stay at the top */
     background-color: #111; /* Black*/
     opacity:0.85;
+    overflow-y: hidden;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
