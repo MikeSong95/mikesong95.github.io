@@ -193,7 +193,7 @@ h1, h2, h3,p {
     width:90%;
   }
   #projects-section {
-    display:inline;
+    display:inline-block;
     z-index:99;
     overflow: hidden;
     width:80%;
